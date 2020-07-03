@@ -115,7 +115,7 @@ h3{ font-family: var(--ff-secundary); }
 }
 
 .my-image{
-    width: 32%;
+    width: 25%;
     position: relative;
     margin: 2em auto 1em auto;
 }
@@ -123,6 +123,12 @@ h3{ font-family: var(--ff-secundary); }
 .carol-photo{
     border-radius: 1em;
     box-sizing: var(--bs);
+}
+
+@media(max-width: 600px){
+    .my-image{
+        width: 30%;
+    }
 }
 
 /* ---About Me Section--- */
